@@ -1,0 +1,10 @@
+namespace Tracksplore.API.Models;
+
+public class UpdateMusicTasteDto
+{
+    public Guid Id { get; set; }
+
+    public bool IsDisabled { get; set; }
+
+    public ISet<string> ArtistIds { get; set; }
+}
